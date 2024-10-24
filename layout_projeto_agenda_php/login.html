@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Sistemas mjailton</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/auxiliar.css">
+		<link rel="stylesheet" type="text/css" href="css/grade.css">
+		<link rel="stylesheet" type="text/css" href="css/m-style.css">
+		<link rel="stylesheet" href="componentes/css/style_Componente.css">
+		<!--font icones-->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+ 
+	</head>
+<body class="base-login">
+	<div class="rows mx-0">
+		<div class="col-4 m-auto">
+		<div class="caixa p-4 pb-4  position-relative">
+			<img src="img/logo.png" class="m-auto d-block">
+			
+			<!--<div class="py-1 width-100 mt-3">
+				<span class="msg msg-vermelho"><i class="fas fa-exclamation-triangle"></i> Senha ou email não encontrado <a href="javascript:;" onclick="fecharMsg()" class="sair">x</a></span>
+			</div>-->
+			
+				<form action="index.html" method="post">						
+						<h1 class="text-center mt-4">login </h1>			
+						<label class="mb-2 d-block">
+							<i><svg width="14" height="17" viewBox="0 0 14 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M9.65307 3.88461C9.65307 4.64966 9.34916 5.38337 8.80819 5.92434C8.26722 6.46531 7.5335 6.76923 6.76846 6.76923C6.00341 6.76923 5.2697 6.46531 4.72873 5.92434C4.18776 5.38337 3.88384 4.64966 3.88384 3.88461C3.88384 3.11957 4.18776 2.38585 4.72873 1.84488C5.2697 1.30391 6.00341 1 6.76846 1C7.5335 1 8.26722 1.30391 8.80819 1.84488C9.34916 2.38585 9.65307 3.11957 9.65307 3.88461ZM1 14.7446C1.02472 13.231 1.64334 11.7878 2.72244 10.7262C3.80155 9.66455 5.25468 9.06959 6.76846 9.06959C8.28223 9.06959 9.73537 9.66455 10.8145 10.7262C11.8936 11.7878 12.5122 13.231 12.5369 14.7446C10.7272 15.5744 8.75934 16.0027 6.76846 16C4.71 16 2.75615 15.5508 1 14.7446Z" stroke="white" stroke-opacity="0.61" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								</i>
+							<input type="text" value="" placeholder="Login" class="form-campo">
+						</label>				
+						<label class="mb-2 d-block">
+							<i><svg width="14" height="17" viewBox="0 0 14 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M10.2308 7.34615V4.46154C10.2308 3.54348 9.86607 2.66303 9.21691 2.01386C8.56774 1.3647 7.68729 1 6.76923 1C5.85117 1 4.97072 1.3647 4.32155 2.01386C3.67239 2.66303 3.30769 3.54348 3.30769 4.46154V7.34615M2.73077 16H10.8077C11.2667 16 11.7069 15.8177 12.0315 15.4931C12.3561 15.1685 12.5385 14.7283 12.5385 14.2692V9.07692C12.5385 8.61789 12.3561 8.17767 12.0315 7.85308C11.7069 7.5285 11.2667 7.34615 10.8077 7.34615H2.73077C2.27174 7.34615 1.83151 7.5285 1.50693 7.85308C1.18235 8.17767 1 8.61789 1 9.07692V14.2692C1 14.7283 1.18235 15.1685 1.50693 15.4931C1.83151 15.8177 2.27174 16 2.73077 16Z" stroke="white" stroke-opacity="0.58" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								</i>
+							<input type="password" value="" placeholder="Senha" class="form-campo">
+						</label>							
+						<input type="submit" value="Entrar" class="btn btn-verde d-table m-auto width-100 h5">
+				</form>
+				<a href="" class="senha text-branco mt-3 mb-4 d-block">Esqueci minha senha</a>
+		
+			<div class="mostrasenha">
+				<div class="p-4">
+					<span class="sair senha position-absolute text-branco" style="right: 1.5rem;top: 1rem;cursor:pointer">X</span>
+					<h1 class="text-center h3 mb-0 pb-1 mt-4 text-roxo">Esqueci minha senha </h1>
+					<p class="text-center pb-2 text-branco">Digite seu email no campo abaixo para recuperar sua senha</p>
+					<form action="" method="post">
+						<label class="mb-2 d-block">
+							<i><svg width="22" height="17" viewBox="0 0 22 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M20.5 3.25V13.75C20.5 14.3467 20.2629 14.919 19.841 15.341C19.419 15.7629 18.8467 16 18.25 16H3.25C2.65326 16 2.08097 15.7629 1.65901 15.341C1.23705 14.919 1 14.3467 1 13.75V3.25M20.5 3.25C20.5 2.65326 20.2629 2.08097 19.841 1.65901C19.419 1.23705 18.8467 1 18.25 1H3.25C2.65326 1 2.08097 1.23705 1.65901 1.65901C1.23705 2.08097 1 2.65326 1 3.25M20.5 3.25V3.493C20.5 3.87715 20.4017 4.25491 20.2144 4.5903C20.0271 4.92569 19.7571 5.20754 19.43 5.409L11.93 10.024C11.5752 10.2425 11.1667 10.3582 10.75 10.3582C10.3333 10.3582 9.92479 10.2425 9.57 10.024L2.07 5.41C1.74292 5.20854 1.47287 4.92669 1.28557 4.5913C1.09827 4.25591 0.999957 3.87815 1 3.494V3.25" stroke="white" stroke-opacity="0.71" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>
+								</i>
+							<input type="text" value="" placeholder="Inserir email" class="form-campo">
+						</label>				
+						</label>							
+						<input type="submit" value="Enviar" class="btn btn-verde d-table m-auto width-100">
+					</form>
+				</div>
+			</div>
+		</div>
+			
+		
+	</div>
+	
+		<script src="js/jquery.min.js"></script>
+	<script src="componentes/js/js_modal.js"></script>
+	<script src="componentes/js/js_util.js"></script>
+	
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<script>
+			$(function(){
+			$('.senha').click (function(){
+			$('.mostrasenha').slideToggle();	
+			$(this).toggleClass('active');
+				return false;
+			});
+			});
+		 </script>
+</body>
+</html>
